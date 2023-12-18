@@ -1,7 +1,6 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/usXZmmgP9Z7kf39fnq/giphy.gif" width="400"/>
-</div>
-<div id="badges">
+  <div id="badges">
   <a href="https://t.me/deaflurryth" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="TG Badge"/>
   </a>
@@ -13,6 +12,8 @@
   </a>
 </div>
 <img src="https://komarev.com/ghpvc/?username=deaflurryth&style=flat-square&color=blue" alt=""/>
+</div>
+
 
 ---
 ### :anger: About Me :
