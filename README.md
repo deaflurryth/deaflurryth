@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb25jOGM1dnh6cDNzaGF3N2ZwZ2JvMDMzY21lMnEzMmlrMXFyYWw5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tpLpWrzoG8QRO57B5q/giphy.gif">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb25jOGM1dnh6cDNzaGF3N2ZwZ2JvMDMzY21lMnEzMmlrMXFyYWw5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tpLpWrzoG8QRO57B5q/giphy.gif" style="width=400px;">
   <div id="badges">
   <a href="mailto:amflurry@icloud.com" target="_blank">
     <img src="https://img.shields.io/badge/mail-%252322a734" alt="VK Badge"/>
