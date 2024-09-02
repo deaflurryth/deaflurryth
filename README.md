@@ -32,13 +32,11 @@ I am a Front-end developer from Russia. Most of all I love making websites using
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="postgresql" **alt="postgresql" width="40" height="40"/>&nbsp;
 </div>
-<!--
-**deaflurryth/deaflurryth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=deaflurryth&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=deaflurryth&theme=shadow_red&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=deaflurryth&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=deaflurryth&icon=6&color=4)](https://visitcount.itsvg.in)
 
