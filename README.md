@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <iframe src="https://giphy.com/embed/0lGd2OXXHe4tFhb7Wh" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pudgypenguins-internet-bard-chatgpt-0lGd2OXXHe4tFhb7Wh">via GIPHY</a></p>
+  <img src="https://giphy.com/embed/0lGd2OXXHe4tFhb7Wh">
   <div id="badges">
   <a href="https://t.me/deaflurryth" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="TG Badge"/>
