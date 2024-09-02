@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN6N3pyZmU2dnVpaXJzanFqZ3ozbm95eDh2c2RvcmtkY21lN3F5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5k5vZwRFZR5aZeniqb/giphy.gif">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW9vYzFjNTdxcmN0NHEzYmtwZmZrZjN5YnBzZWxtOTh5NnZrN2xjZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0lGd2OXXHe4tFhb7Wh/giphy.gif">
   <div id="badges">
   <a href="https://t.me/deaflurryth" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="TG Badge"/>
