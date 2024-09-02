@@ -17,10 +17,10 @@
 
 ---
 ### :anger: About Me :
-I am a Front-end developer from Russia.
+I am a Front-end developer from Russia. Most of all I love making websites using beautiful figma layouts. Seriously, this has probably become my second hobby after fishing. Fishing is also crazy, I was ready to participate in any startup related to this. For example, I really liked the idea of ​​a map with fishing spots…
 
 ---
-### :hammer_and_wrench: Languages and Tools :
+### :hammer_and_wrench: Tech Stack :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" **alt="python" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" title="django" **alt="django" width="40" height="40"/>&nbsp;
@@ -34,15 +34,11 @@ I am a Front-end developer from Russia.
 </div>
 <!--
 **deaflurryth/deaflurryth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=deaflurryth&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=deaflurryth&theme=shadow_red&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=deaflurryth&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-Here are some ideas to get you started:
+---
+[![](https://visitcount.itsvg.in/api?id=deaflurryth&icon=6&color=4)](https://visitcount.itsvg.in)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
