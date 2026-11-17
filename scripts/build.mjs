@@ -9,6 +9,7 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hero, links, REPO, SIMPLE_ICONS_VERSION, stack } from '../profile.config.mjs';
+import { knightScene } from './pixel.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ICON_SIZE = 44;
@@ -142,6 +143,10 @@ const LAYOUT = {
     orb: { x: 470, y: 250, r: 20 }, boat: 240, boatScale: 1.25, fish: 98, trees: [500, 600], stars: 26,
   },
 };
+
+// Style swap cycle (s). The keyframes in heroSvg assume swaps at 11.8 s and 23.8 s.
+const SWAP = 24;
+const SWAP_OFFSET = 3;
 
 const FONT_SANS = `ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif`;
 const FONT_MONO = `ui-monospace, 'SF Mono', SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace`;
@@ -280,6 +285,19 @@ function heroSvg(themeName, layoutName) {
   const reflectionOpacity = themeName === 'dark' ? 0.32 : 0.14;
   const title = `${hero.name} — ${hero.taglines[0]}`;
 
+  // Second style: the pixel knight takes over for half of a SWAP-second cycle,
+  // with a left-to-right block dissolve on each change. Everything is shifted
+  // by SWAP_OFFSET so time zero (and any static render) shows the lake.
+  const knight = knightScene(themeName, layoutName, { handle: hero.knight.handle, name: hero.name, lines: hero.knight.lines });
+  const BLOCK = 40;
+  let blocks = '';
+  for (let y = 0; y < H; y += BLOCK) {
+    for (let x = 0; x < W; x += BLOCK) {
+      const r = 0.05 + 0.5 * (x / W) + 0.2 * rand();
+      blocks += `<rect class="a pxd" x="${x}" y="${y}" width="${BLOCK}" height="${BLOCK}" fill="${knight.dissolve}" opacity="0" style="animation-delay:${f(r - SWAP_OFFSET)}s"/>`;
+    }
+  }
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}">
 <title>${esc(title)}</title>
 <style>
@@ -307,6 +325,11 @@ function heroSvg(themeName, layoutName) {
 .tg{font:400 ${T.tagSize}px ${FONT_SANS};fill:${c.tagline};opacity:0;animation-name:tg;animation-duration:${cycle}s;animation-fill-mode:both;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
 .tg.first{opacity:1}
 @keyframes tg{0%{opacity:0;transform:translateY(6px)}${pct(FADE)}%{opacity:1;transform:translateY(0)}${pct(slot - FADE)}%{opacity:1;transform:translateY(0)}${pct(slot)}%{opacity:0;transform:translateY(-6px)}100%{opacity:0;transform:translateY(-6px)}}
+${knight.css}
+.kn{animation-name:kn;animation-duration:${SWAP}s;animation-timing-function:linear;animation-delay:-${SWAP_OFFSET}s}
+@keyframes kn{0%,49.16%{opacity:0}49.17%,99.16%{opacity:1}99.17%,100%{opacity:0}}
+.pxd{animation-name:pxd;animation-duration:${SWAP}s;animation-timing-function:linear}
+@keyframes pxd{0%,45.83%{opacity:0}45.84%,49.16%{opacity:1}49.17%,95.83%{opacity:0}95.84%,99.16%{opacity:1}99.17%,100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.a{animation:none!important}}
 </style>
 <defs>
@@ -343,6 +366,10 @@ ${bobber}
 <text x="${T.x - 2}" y="${T.name}" style="font:600 ${T.nameSize}px ${FONT_SANS};letter-spacing:-.025em" fill="${c.name}">${esc(hero.name)}</text>
 <text x="${T.x}" y="${T.tagline}" style="font:500 ${T.tagSize}px ${FONT_MONO}" fill="${c.accent}">›</text>
 ${taglines}
+<g class="a kn px" opacity="0">
+${knight.svg}
+</g>
+<g shape-rendering="crispEdges">${blocks}</g>
 </svg>
 `;
 }
@@ -391,7 +418,7 @@ function stackBlock(loaded) {
 }
 
 function heroBlock() {
-  const alt = esc(`${hero.name} — ${hero.taglines[0]}. A fisherman in a boat on a quiet lake, waiting for a bite.`);
+  const alt = esc(`${hero.name} — ${hero.taglines[0]}. A fisherman on a quiet lake that turns into a pixel-art knight fishing by a castle.`);
   return `<picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="${asset('assets/hero/dark-compact.svg')}">
   <source media="(max-width: 600px)" srcset="${asset('assets/hero/light-compact.svg')}">

@@ -10,7 +10,7 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/deaflurryth/deaflurryth/main/assets/hero/dark-compact.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/deaflurryth/deaflurryth/main/assets/hero/light-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/deaflurryth/deaflurryth/main/assets/hero/dark-wide.svg">
-  <img src="https://raw.githubusercontent.com/deaflurryth/deaflurryth/main/assets/hero/light-wide.svg" width="100%" alt="Dmitrii Borodulin — Fullstack engineer · design-grade frontend. A fisherman in a boat on a quiet lake, waiting for a bite.">
+  <img src="https://raw.githubusercontent.com/deaflurryth/deaflurryth/main/assets/hero/light-wide.svg" width="100%" alt="Dmitrii Borodulin — Fullstack engineer · design-grade frontend. A fisherman on a quiet lake that turns into a pixel-art knight fishing by a castle.">
 </picture>
 <!-- HERO:END -->
 

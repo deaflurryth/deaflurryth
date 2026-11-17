@@ -24,6 +24,11 @@ export const hero = {
     'Shipping with Claude Code & Codex',
     'Off-hours: catching pike, not bugs',
   ],
+  // Pixel-knight style that the banner swaps to. Bitmap font: A–Z, 0–9, space . , : / ~ - · & > !
+  knight: {
+    handle: '~/deaflurryth',
+    lines: ['LVL 99 fullstack knight', 'Quest: slay bugs, ship AI'],
+  },
 };
 
 export const links = [
