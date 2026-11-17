@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Radix UI">
+<title>Radix UI</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F2F4F7"/></linearGradient></defs>
+<rect x="2" y="2" width="252" height="252" rx="58" fill="url(#g)" stroke="#D0D7DE" stroke-width="4"/>
+<path transform="translate(62 62) scale(5.5)" fill="#1F2328" d="M11.52 24a7.68 7.68 0 0 1-7.68-7.68 7.68 7.68 0 0 1 7.68-7.68V24Zm0-24v7.68H3.84V0h7.68Zm4.8 7.68a3.84 3.84 0 1 1 0-7.68 3.84 3.84 0 0 1 0 7.68Z"/>
+</svg>

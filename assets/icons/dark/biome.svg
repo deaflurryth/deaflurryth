@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Biome">
+<title>Biome</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1C2230"/><stop offset="1" stop-color="#141922"/></linearGradient></defs>
+<rect x="2" y="2" width="252" height="252" rx="58" fill="url(#g)" stroke="#2B3342" stroke-width="4"/>
+<path transform="translate(62 62) scale(5.5)" fill="#60A5FA" d="m12 1.608-5.346 9.259a12.069 12.069 0 0 1 6.326-.219l1.807.426-1.7 7.208-1.809-.427c-2.224-.524-4.361.644-5.264 2.507l-1.672-.809c1.276-2.636 4.284-4.232 7.364-3.505l.847-3.592A10.211 10.211 0 0 0 0 22.392h24L12 1.608Z"/>
+</svg>
