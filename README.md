@@ -17,7 +17,7 @@
 
 ---
 # :evergreen_tree: About Me :
-I am a Front-end developer from Russia. Most of all I love making websites using beautiful figma layouts. Seriously, this has probably become my second hobby after fishing. Fishing is also crazy, I was ready to participate in any startup related to this. For example, I really liked the idea of ​​a map with fishing spots…
+I am a Front-end developer. Most of all I love making websites using beautiful figma layouts. Seriously, this has probably become my second hobby after fishing. Fishing is also crazy, I was ready to participate in any startup related to this. For example, I really liked the idea of ​​a map with fishing spots…
 
 ---
 # :hammer_and_wrench: Tech Stack :
